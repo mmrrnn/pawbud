@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.color-blue {
+    color: #19297C!important;
+}
+
+div.main-image {
+    height: 80vh;
+    width: 100%;
+    background-image: url('./images/main.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.div-text {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: white;
+    background-color: rgba(25, 41, 124, 0.9);
+    letter-spacing: 0.5px;
+    line-height: 1.6rem;
+}
+
+div.div-img {
+    height: 90vh;
+    background-size: cover;
+}
+
+div.div-img-1 {
+    background-image: url("./images/wylewki.jpg");
+}
+
+div.div-img-2 {
+    background-image: url("./images/piana.jpg");
+}
+
+.img-thumbnail:hover {
+    cursor: pointer;
+}
+
+footer div {
+    font-size: 1.6rem;
+}
+
+@media(max-width: 767.98px) {
+    div.div-text {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
